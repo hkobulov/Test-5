@@ -1,0 +1,35 @@
+.hero .container {
+    padding: 168px 25px 600px 25px;
+    background-image: url("/images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__heading {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.hero__heading {
+    width: 800px;
+    color: $white-light;
+}
+
+.hero__link {
+    display: block;
+    width: 200px;
+    padding: 20px 25px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    background-color: $yellow;
+}

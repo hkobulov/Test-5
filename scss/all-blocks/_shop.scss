@@ -1,0 +1,36 @@
+.shop {
+    padding: 25px 0;
+}
+
+.shop .container {
+    padding: 220px 150px;
+    background-image: url("../images/shop-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.shop__heading {
+    width: 900px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    font-size: 56px;
+    line-height: 62px;
+    font-weight: 700;
+    color: $dark-green;
+    text-align: center;
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.shop__link {
+    display: block;
+    width: 205px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: $dark-green;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid $dark-green;
+}

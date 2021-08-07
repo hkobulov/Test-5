@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0.5px $dark-green;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item {
+    padding: 18px;
+}
+
+.nav__link {
+    color: $dark-green;
+    text-decoration: none;
+}

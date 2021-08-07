@@ -1,0 +1,188 @@
+.product {
+    padding: 20px 0;
+}
+
+.product .container {
+    box-shadow: 0 -2px 0 0 $dark-green;
+}
+
+.product__heading {
+    width: 583px;
+    margin: 0 auto;
+    padding-top: 84px;
+    padding-bottom: 107px;
+    text-align: center;
+    color: $dark-green;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -12px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.product-list__item {
+    width: 588px;
+    margin: 12px;
+    padding-top: 20px;
+}
+
+.product-list__item:nth-child(1) {
+    background-image: url("/images/product-shampoo.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.product-list__item:nth-child(2) {
+    background-image: url("/images/product-health.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.product-list__item:nth-child(3) {
+    background-image: url("/images/product-soap.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.product-list__item:nth-child(4) {
+    background-image: url("/images/product-hair-care.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.product-list__heading {
+    margin-bottom: 12px;
+    color: $white-light;
+    text-align: center;
+}
+
+.product-list__desc {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 336px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 26px;
+    color: $white-light;
+    text-align: center;
+}
+
+.product-list__btn {
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    padding: 20px;
+    border: none;
+    font-size: 24px;
+    color: $dark-green;
+    background-color: $yellow;
+    cursor: pointer;
+}
+
+.about-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-list__item:nth-child(1) {
+    box-shadow: 0 -2px 0 0 $dark-green, 0 2px 0 0 $dark-green;
+}
+
+.about-list__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    box-shadow: 0 2px 0 0 $dark-green;
+}
+
+
+.about-list__item:nth-child(1)::before {
+    content: "";
+    width: 588px;
+    height: 588px;
+    display: block;
+    background-image: url("/images/about-perfumes.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.about-list__item:nth-child(2)::before {
+    content: "";
+    width: 588px;
+    height: 588px;
+    display: block;
+    background-image: url("/images/about-bottle.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+    order: 2;
+}
+
+.about-list__item:nth-child(3)::before {
+    content: "";
+    width: 588px;
+    height: 588px;
+    display: block;
+    background-image: url("/images/about-water.jpg");
+    background-repeat: no-repeat;
+    background-size: 588px;
+}
+
+.about-list__heading {
+    width: 500px;
+    margin: auto;
+    font-size: 56px;
+    line-height: 62px;
+    color: $dark-green;
+    text-align: center;
+}
+
+// Second part
+
+.product__heading-second {
+    width: 777px;
+}
+
+.product-list-second {
+    padding-top: 25px;
+}
+
+// Third part
+
+.product__heading-third {
+    width: 830px;
+    font-size: 72px;
+    line-height: 89px;
+}
+
+.product-list-line {
+    display: block;
+    width: 1200px;
+    height: 2px;
+    background-color: $dark-green;
+}
+
+.product-info-third {
+    display: flex;
+    padding: 25px 0;
+}
+
+.product-info-third::before {
+    content: "";
+    display: block;
+    width: 588px;
+    height: 588px;
+    background-image: url("../images/product-info-third.jpg");
+    background-size: 588px;
+}
+
+.product-info-third__heading {
+    width: 500px;
+    margin: auto;
+    color: $dark-green;
+    text-align: center;
+}
